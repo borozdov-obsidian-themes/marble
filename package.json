@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-marble",
+  "private": true,
+  "description": "Architectural editorial on white marble: a humanist serif for headlines, one cobalt accent, and stone-toned surfaces throughout.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
